@@ -31,5 +31,7 @@ jobs:
           mkdocs build
 
       - name: "Deploy Github Pages"
-        run: |
-          mkdocs gh-deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site  # Adjust the directory where MkDocs generates the documentation
