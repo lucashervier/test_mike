@@ -36,3 +36,4 @@ jobs:
       - name: "Deploy Github Pages"
         run: |
           mike deploy --push --update-aliases ${{ github.event.release.tag_name }} latest
+          mike set-default --push latest
