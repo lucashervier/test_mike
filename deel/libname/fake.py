@@ -33,3 +33,13 @@ def addition(a: float, b: float):
     c = np.sum([a, b])
 
     return c
+
+def bye_world():
+    """
+    A method that print "Bye World!".
+
+    Note:
+        This method do not requires any parameters.
+    """
+
+    print("Bye World")
