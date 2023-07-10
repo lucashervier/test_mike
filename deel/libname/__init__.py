@@ -3,6 +3,6 @@
 # CRIAQ and ANITI - https://www.deel.ai/
 # =====================================================================================
 
-__version__ = '0.0.5'
+__version__ = '0.0.6'
 
 from .fake import hello_world, addition
