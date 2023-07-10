@@ -56,7 +56,7 @@ setup(
     # Name of the package:
     name="lib-name",
     # Version of the package:
-    version="0.0.1",
+    version="0.0.2",
     # Find the package automatically (include everything):
     packages=find_namespace_packages(include=["deel.*"]),
     # Author information:
