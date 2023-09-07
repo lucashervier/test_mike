@@ -34,7 +34,7 @@ theme:
 
 plugins:
   - search
-  - mkdocstrings
+  - numkdoc
   - mknotebooks
 
 markdown_extensions:
