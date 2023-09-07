@@ -6,6 +6,44 @@ Do not forget to follow
 """
 import numpy as np
 
+# def hello_world():
+#     """
+#     A method that print "Hello World!".
+
+#     Note:
+#         This method do not requires any parameters.
+#     """
+#     print("Hello World!")
+
+# def addition(a: float, b: float):
+#     """
+#     A method that performs the following math:
+
+#     $$
+#     c = a + b
+#     $$
+
+#     Args:
+#         a (float): A float number
+#         b (float): Another float number
+    
+#     Returns:
+#         float: The sum of a and b
+#     """
+#     c = np.sum([a, b])
+
+#     return c
+
+# def bye_world():
+#     """
+#     A method that print "Bye World!".
+
+#     Note:
+#         This method do not requires any parameters.
+#     """
+
+#     print("Bye World")
+
 def hello_world():
     """
     A method that print "Hello World!".
@@ -15,7 +53,7 @@ def hello_world():
     """
     print("Hello World!")
 
-def addition(a: float, b: float):
+def addition(a: float, b: float) -> float:
     """
     A method that performs the following math:
 
@@ -23,12 +61,17 @@ def addition(a: float, b: float):
     c = a + b
     $$
 
-    Args:
-        a (float): A float number
-        b (float): Another float number
+    Parameters
+    ----------
+    a
+        A float number
+    b
+        Another float number
     
-    Returns:
-        float: The sum of a and b
+    Returns
+    -------
+    c
+        The sum of a and b
     """
     c = np.sum([a, b])
 
